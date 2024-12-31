@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    background-image: url(./img/Fantasy-Wallpaper-27.jpg);
+    background-size: cover;
+    /* background-color: blue; */
+    font-family: 'MedievalSharp', cursive;
+    /* opacity: 1; */
+}
+
+h1 {
+    font-style: white;
+}
+
+img {
+    width: 30px;
+}
+
+p {
+    color: white;
+    display: none;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+input {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+
+button {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+
+select {
+    /* font-size: 15px; */
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    font-family: 'MedievalSharp', cursive;
+    ;
+}
+
+#dndAlignment {
+    width: 350px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h2 {
+    border-bottom: 2px solid rgba(0, 0, 0, .4);
+    /* opacity: .5; */
+}
+
+/* #align { */
+/* width: 200px; */
+/* display: inline-flex; */
+/* justify-content: space-evenly; */
+/* } */
+
+#images img {
+    /* display: inline-block; */
+    width: 60px;
+    padding: 5px;
+    margin: 10px;
+    /* border: 5px; */
+}
+
+.alignmentText {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    font-family: 'MedievalSharp', cursive;
+    ;
+
+}
+
+#classImage {
+    width: auto;
+    height: auto;
+}
+
+#inline {
+    display: flex;
+    justify-content: space-evenly;
+}
